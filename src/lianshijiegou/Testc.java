@@ -5,7 +5,7 @@ public class Testc {
         ChunZhi c = new ChunZhi();
         c.Add(1);
         c.Add(2);
-        c.Add(5);
+        c.Add(7);
         c.Select(1);
     }
 }
