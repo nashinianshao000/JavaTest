@@ -13,7 +13,7 @@ public class Student {
             Map.Entry<String,String[]> entry = iterator.next();
             String key = entry.getKey();
             String[] value = entry.getValue();
-            System.out.printf("第%s题 %s 选择正确答案:\nA,%s  B,%s  C,%s  D,%s \n",i+1,key,value[0],value[1],value[2],value[3] );
+            System.out.printf("第%s题 %s 选择正确答案:\nA,%s  B,%s  C,%s  D,%s \n",i+1,key.substring(1),value[0],value[1],value[2],value[3] );
             Scanner scanner = new Scanner(System.in);
             String daan = scanner.nextLine();
             if (daan.equals(value[4])||daan.equals(value[4].toLowerCase())){
